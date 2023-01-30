@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="j6Bk$jLwf4DYP/:8ehl9" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="C@k_cv30p[m4*}bpbd8)"><field name="i">IconNames.Surprised</field><next><block type="SoundExpression_playUntilDone" id=",XVYshS7nyh9$.+|9trS"><field name="this">soundExpression.giggle</field></block></next></block></statement></block><block type="device_gesture_event" id="b=dT!01_DQRX(yse0++j" x="420" y="-1"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="bblmc=24qv[65:}##?t+"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="SoundExpression_playUntilDone" id="JBry7Um6,{Q6]4.zLJ7?"><field name="this">soundExpression.slide</field></block></next></block></statement></block><block type="device_gesture_event" id="NC6j3NPbe{v!F%_k.@~m" x="-1" y="222"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="basic_show_icon" id="Om4nyJ{!%Ef=hk,jw?%C"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="L}J=RWEcT,!!{MgY95lH"><field name="this">soundExpression.hello</field></block></next></block></statement></block><block type="device_gesture_event" id=",Bus%e5DSVdUSum9t(uh" x="432" y="406"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id=":aa9:!:XoRU%1ot/8)L4"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="SoundExpression_playUntilDone" id="[V0Sm=y%FNET|oLcsr{}"><field name="this">soundExpression.soaring</field></block></next></block></statement></block><block type="device_gesture_event" id="eR.pxfJ[fjd.oJ;ux/C#" x="0" y="449"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="basic_show_icon" id="#%-nW*v1DL;*O!%+4s7h"><field name="i">IconNames.Asleep</field><next><block type="SoundExpression_playUntilDone" id="`XCx3?;VaN-~|LQJYSxC"><field name="this">soundExpression.yawn</field></block></next></block></statement></block></xml>
